@@ -1,0 +1,11 @@
+import pandas as pd
+df1 = pd.read_csv("output_test.tsv",sep="\t", encoding='CP932')
+df2 = pd.read_csv("output.tsv",sep="\t")
+a = df1.head()
+b = df2.head()
+print("---------output_test.tsv---------")
+print(a)
+print(df1)
+print("---------output.tsv---------")
+print(b)
+print(df2)

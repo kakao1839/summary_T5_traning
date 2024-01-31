@@ -1,0 +1,9 @@
+/content/work/dev.csv
+/content/work/train.csv
+.tsv
+/content/output.tsv
+/content/output_coppy.tsv
+/content/output_test.tsv
+/content/output_test1.tsv
+/.venv/
+/content/work/transformers/
